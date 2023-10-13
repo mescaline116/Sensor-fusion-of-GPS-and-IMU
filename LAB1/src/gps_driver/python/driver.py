@@ -26,9 +26,10 @@ def gpsdriver():
             strng = str(line)
             things = list(map(str,strng.split(',')))
 
-            if things[0] == "b'$GPGGA" and things[2] == '':
+            # print(things)
+            if (things[0] == "b'$GPGGA" or things[0]=="b'\\r$GPGGA") and things[2] == '':
                 rospy.logwarn("no gps data")
-            elif things[0] == "b'$GPGGA" and things[2] !='':
+            elif (things[0] == "b'$GPGGA" or things[0]=="b'\\r$GPGGA") and things[2] !='':
                 print("the data is",things)
 
                 utc = float(things[1])
