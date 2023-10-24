@@ -1,4 +1,4 @@
-Header header
+Header Header
 sensor_msgs/Imu IMU
 sensor_msgs/MagneticField MagField
 string imu_raw
