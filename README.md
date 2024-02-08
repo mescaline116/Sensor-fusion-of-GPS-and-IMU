@@ -1,4 +1,6 @@
 # **Magnetometer Calibration:**
+![Screenshot 2023-11-04 193815](https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/159469c7-0f5f-449f-acbb-f26191316af2)
+![Screenshot 2023-11-04 193851](https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/866ab1f9-f5a6-485b-9879-df12c742bc0d)
 
 The initial magnetic field plot looked like an ellipse since hard iron moved its origin and soft iron
 distortion rotated it and changed it into an ellipse. To fix this, I fit an ellipse on the plot and then
@@ -12,12 +14,12 @@ with a transformation matrix.
 
 ## Sources of distortion:
 
-- Hard iron distortions: They are created by objects that produce a magnetic field. A
+- **Hard iron distortions:** They are created by objects that produce a magnetic field. A
     speaker or piece of magnetized iron for example will cause a hard iron distortion. If the
     piece of magnetic material is physically attached to the same reference frame as the
     sensor, then this type of hard iron distortion will cause a permanent bias in the sensor
     output.
-- Soft iron distortions: They are considered deflections or alterations in the existing
+- **Soft iron distortions:** They are considered deflections or alterations in the existing
     magnetic field. These distortions will stretch or distort the magnetic field depending
     upon which direction the field acts relative to the sensor. This type of distortion is
     commonly caused by metals such as nickel and iron.
