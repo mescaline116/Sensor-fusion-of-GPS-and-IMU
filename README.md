@@ -1,4 +1,4 @@
-# <**Magnetometer Calibration:**>
+# **Magnetometer Calibration:**
 
 The initial magnetic field plot looked like an ellipse since hard iron moved its origin and soft iron
 distortion rotated it and changed it into an ellipse. To fix this, I fit an ellipse on the plot and then
