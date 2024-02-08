@@ -1,6 +1,0 @@
-<launch>
-    <arg name="port" default="/dev/ttyACM0"/>
-    <node name="rtk_driver" pkg="rtk_driver" type="rtk_driver.py" output="screen">
-        <param name="port" value="$(arg port)"/> 
-    </node>
-</launch>
