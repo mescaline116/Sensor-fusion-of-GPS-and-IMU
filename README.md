@@ -26,7 +26,7 @@ with a transformation matrix.
 
 
 # **Computing Yaw:**
-<img src="https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/a2dc0e93-993d-46c7-9040-10053a68136f" alt="Screenshot 2023-11-04 213024" width=400 height=400>
+<img src="https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/a2dc0e93-993d-46c7-9040-10053a68136f" alt="Screenshot 2023-11-04 213024" width=400 height=300>
 
 The yaw calculated from the gyroscope data is relatively smoother and less sensitive (fewer
 peaks) as compared to the IMU yaw, while the yaw derived from the magnetometer data is
