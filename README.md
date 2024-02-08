@@ -10,7 +10,7 @@ all the magnetometer values.
 For soft iron distortion, I transformed the fitted ellipse into a circle by multiplying all the values
 with a transformation matrix.
 
-Sources of distortion:
+## Sources of distortion:
 
 - Hard iron distortions: They are created by objects that produce a magnetic field. A
     speaker or piece of magnetized iron for example will cause a hard iron distortion. If the
@@ -23,7 +23,7 @@ Sources of distortion:
     commonly caused by metals such as nickel and iron.
 
 
-**Computing Yaw:**
+# **Computing Yaw:**
 
 The yaw calculated from the gyroscope data is relatively smoother and less sensitive (fewer
 peaks) as compared to the IMU yaw, while the yaw derived from the magnetometer data is
@@ -42,7 +42,7 @@ The cutoff frequency that I used was 40 Hertz.
 I would trust the gyroscope yaw for navigation because it’s similar to the IMU yaw and has less
 deviations as compared to the magnetometer yaw.
 
-**Estimating Forward Velocity:**
+# **Estimating Forward Velocity:**
 
 Since the accelerometer has a bias to it, I averaged the bias out over intervals before the car
 came to a stop or had constant velocity. This helped me eliminate the bias from the
@@ -54,7 +54,7 @@ integrated too. This enhances the error and it leads to a deviation from the act
 GPS is more true to the actual data.
 
 
-**Dead reckoning:**
+# **Dead reckoning:**
 
 Y observed seems to be noisy because of integration so I applied a low pass filter on it.
 
