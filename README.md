@@ -1,6 +1,6 @@
 # **Magnetometer Calibration:**
-<img src="https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/159469c7-0f5f-449f-acbb-f26191316af2" alt="Screenshot 2023-11-04 193815" width=400 height=400>
-<img src="https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/866ab1f9-f5a6-485b-9879-df12c742bc0d" alt="Screenshot 2023-11-04 193851" width=400 height=400>
+<img src="https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/159469c7-0f5f-449f-acbb-f26191316af2" alt="Screenshot 2023-11-04 193815" width=400 height=300>
+<img src="https://github.com/mescaline116/Sensor-fusion-of-GPS-and-IMU/assets/71351959/866ab1f9-f5a6-485b-9879-df12c742bc0d" alt="Screenshot 2023-11-04 193851" width=400 height=300>
 
 The initial magnetic field plot looked like an ellipse since hard iron moved its origin and soft iron
 distortion rotated it and changed it into an ellipse. To fix this, I fit an ellipse on the plot and then
